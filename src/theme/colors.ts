@@ -1,0 +1,23 @@
+export type Color =
+  | "background"
+  | "screen"
+  | "disabled"
+  | "surface"
+  | "primary"
+  | "primaryDisabled"
+  | "focused"
+  | "selected"
+  | "critical"
+  | "borderLight"
+  | "borderNormal"
+  | "borderStrong"
+  | "textMain"
+  | "textTitle"
+  | "textOnPrimary"
+  | "textDisabled"
+  | "textSecondary"
+  | "textPrimary"
+  | "textCritical"
+  | "textPlaceholder"
+
+export type Palette = Record<Color, string>
